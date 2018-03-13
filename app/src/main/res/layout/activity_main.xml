@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff">
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textshape"
+        android:text="Sound Report"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/txvResult"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="normal"
+        android:background="@drawable/shape"
+        android:textAlignment="center"
+        />
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/mic"/>
+
+    <TextView
+        android:id="@+id/db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Speak Loudly"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+
+</RelativeLayout>

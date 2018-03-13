@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vs.voiceapp.com.voiceapp.SplashScreen"
+    >
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffff"
+        android:alpha="0.4"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/mic"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/mic"/>
+    <Space
+        android:layout_below="@id/mic"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:id="@+id/space"/>
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Voice APP"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/space"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/mic"
+        android:layout_below="@+id/textView"
+        android:id="@+id/loading"/>
+</RelativeLayout>
